@@ -1,0 +1,9 @@
+theia@theiadocker-jimmyjung1:~/final_project$ cd /home/theia/final_project
+pylint server.py
+************* Module server
+server.py:40:12: E0001: Parsing failed: 'invalid syntax (server, line 40)' (syntax-error)
+theia@theiadocker-jimmyjung1:~/final_project$ printf '\n' >> server.py
+pylint server.py
+
+-------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 9.23/10, +0.77)
