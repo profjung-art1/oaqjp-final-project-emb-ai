@@ -1,0 +1,9 @@
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)
+theia@theiadocker-jimmyjung1:~$ cd /home/theia/final_project
+python3 -m unittest test_emotion_detection.py
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.629s
